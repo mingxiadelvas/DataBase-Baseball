@@ -1,0 +1,54 @@
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: sans-serif;
+  margin-top: 60px;
+  background: linear-gradient(180deg, rgba(0, 238, 255, 0.452), rgba(235, 0, 204, 0.397))fixed;
+  font-size: 20px;
+  color: white;
+}
+
+#lance {
+  color: white;
+  padding: 15px 25px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  font-weight:bold;
+  background-image: linear-gradient(180deg, rgba(255, 217, 0, 0.452), rgba(233, 6, 203, 0.397));
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgba(153, 153, 153, 0.123);
+  position: fixed;
+  top: 50px; 
+  left: 90%;
+}
+
+table, th, td {
+  border-collapse: separate;
+  text-align: center;
+  border-bottom: 1px solid rgba(132, 0, 240, 0.24);
+  margin: auto;
+  background-color: white;
+  border-spacing: 15px;
+  border-radius: 15px 50px;
+  color: violet;
+}
+
+th {
+  background-image: linear-gradient(180deg, rgba(255, 217, 0, 0.452), rgba(233, 6, 203, 0.397));
+  font-size: 25px;
+  padding: 15px 20px;
+  font-style: oblique;
+  box-shadow: 0 9px rgba(153, 153, 153, 0.123);
+  color: white;
+}
+
+footer{
+  position: fixed;
+  left:40%;
+  right:40%;
+  bottom:15%;
+  text-align: center;
+  font-size: 10px;
+}

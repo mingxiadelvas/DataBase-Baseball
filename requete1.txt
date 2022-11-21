@@ -1,0 +1,5 @@
+On utilise ici l annee 2002 comme variable exemple:
+
+SELECT nameFirst as prenom, nameLast as nom, teamID, MAX(salary) as salaire From Master t, Salaries t2 WHERE t.playerID=t2.playerID AND t2.yearID=2002;
+
+
